@@ -99,6 +99,7 @@ hr {
 }
 /* Navigation */
 .navbar-custom {
+	height:60px;
 	padding: 0;
 	border-bottom: 0;
 	letter-spacing: 1px;
@@ -113,6 +114,23 @@ hr {
 }
 .navbar-custom .navbar-brand:focus {
 	outline: 0;
+}
+
+.navbar .circle { 
+   width: 57px;
+   height: 57px;
+   background: white; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   position: absolute;
+   top: 2px;
+   left: 2px;
+}
+
+.circle img{
+	width:100%;
+	height:100%;
 }
 .navbar-custom .navbar-toggle {
 	color: #eee;
@@ -162,7 +180,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center center fixed;
+	/*background: url(../img/intro-bg.jpg) no-repeat center center fixed;*/
 	background-color: #f6f6f6;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -179,9 +197,7 @@ hr {
 
 
 #intro .intro-body h1 {
-	font-size: 76px;
-	font-weight: 700;
-	color: #f6f6f6;
+	color: #000;
 	text-transform: uppercase;
 }
 
@@ -216,6 +232,11 @@ hr {
 	letter-spacing: 1px;
 	margin-bottom: 100px;
 	color: rgba(255,255,255,0.9);
+}
+
+#intro img {
+	position: relative;
+    top: 40px;
 }
 
 }
@@ -536,13 +557,22 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 @media (max-width: 768px) {
+	#intro img {
+		position: relative;
+		top:  -55px;
+	}
 .hover-bg .hover-text {
 	padding: 20%;
 }
 }
 
 @media (max-width: 640px) {
-#intro .intro-body H1 {
-	font-size: 5em;
-}
+	#intro img {
+		position: relative;
+		top:  -55px;
+	}
+
+	#intro .intro-body H1 {
+		font-size: 5em;
+	}
 }

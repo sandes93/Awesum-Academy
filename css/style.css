@@ -173,6 +173,16 @@ hr {
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
+
+
+
+
+.calendly-badge-widget{
+	bottom: 100px;
+}
+
+
+
 /* Home Section */
 #intro {
 	display: table;
@@ -188,7 +198,6 @@ hr {
 	background-size: cover;
 	-o-background-size: cover;
 }
-
 
 
 #intro .intro-body {

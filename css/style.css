@@ -235,7 +235,6 @@ hr {
 
 @media(min-width:768px) {
 	#intro {
-		height: 100%;
 		padding: 100px 0;
 	}
 
